@@ -1,0 +1,12 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.9.1_webpack@5.90.0/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/.pnpm/sass-loader@14.0.0_webpack@5.90.0/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./src/Block/show-sub-tax-class/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.wc-block-components-product-details__sub_tax-class {
+  margin-top: 20px;
+}
+
+.wc-block-components-product-details__tax-class .wc-block-components-product-details__value {
+  padding-left: 12px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

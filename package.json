@@ -1,0 +1,39 @@
+{
+	"name": "taxdo",
+	"version": "2.0.0",
+	"author": "taxdo",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"env": "wp-env"
+	},
+	"devDependencies": {
+		"@woocommerce/dependency-extraction-webpack-plugin": "^2.3.0",
+		"@woocommerce/eslint-plugin": "^2.2.0",
+		"@wordpress/env": "^9.2.0",
+		"@wordpress/prettier-config": "^3.7.0",
+		"@wordpress/scripts": "^27.1.0",
+		"classnames": "^2.5.1",
+		"css-loader": "^6.9.1",
+		"prettier": "npm:wp-prettier@^3.0.3",
+		"sass-loader": "^14.0.0"
+	},
+	"files": [
+		"license.txt",
+		"readme.txt",
+		"taxdo.php",
+		"uninstall.php",
+		"src",
+		"config",
+		"build",
+		"assets",
+		"vendor/composer",
+		"vendor/autoload.php"
+	]
+}

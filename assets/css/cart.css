@@ -1,0 +1,58 @@
+.woocommerce .taxdo_cert {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.woocommerce-page #taxdo_cert_code {
+    width: auto;
+    margin-right: .8rem;
+    height: 50px;
+    font-size: var(--wp--preset--font-size--small);
+    padding: 0 1.1rem;
+}
+
+/*upload_certificate_form*/
+.taxdo_certificate_wrapper {
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-direction: column;
+}
+
+#taxdo_upload_certificate_form .heading,
+#taxdo_upload_certificate_form .title,
+#taxdo_upload_certificate_form > h3,
+#taxdo_upload_certificate_form > p {
+    text-align: center;
+}
+
+#taxdo_upload_certificate_form > h3 {
+    margin: 0;
+}
+
+.taxdo_upload_certificate_field-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.taxdo_business_info-fields__field-wrapper, .taxdo_cert_info-fields__field-wrapper {
+    flex: 1;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .taxdo_upload_certificate_field-wrapper {
+        flex-direction: column;
+    }
+}
+
+.taxdo_upload_certificate_form__submit-wrapper {
+	display: flex;
+	justify-content: end;
+}

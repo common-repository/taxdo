@@ -1,0 +1,48 @@
+.is-large .taxdo-block-components-totals-certificate {
+	margin-left: $gap;
+	margin-right: $gap;
+}
+.taxdo-block-components-totals-certificate {
+	.taxdo-block-components-panel__button {
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.taxdo-block-components-panel__content {
+		padding-bottom: 0;
+	}
+
+	.taxdo-block-components-totals-certificate__valid-code {
+		color: var(--wp--preset--color--vivid-green-cyan);
+	}
+}
+
+.taxdo-block-components-totals-certificate__form {
+	display: flex;
+	width: 100%;
+	margin-bottom: 0;
+
+	.taxdo-block-components-totals-certificate__input {
+		margin-bottom: 0;
+		margin-top: 0;
+		flex-grow: 1;
+	}
+
+	.taxdo-block-components-totals-certificate__button {
+		height: 3em;
+		flex-shrink: 0;
+		margin-left: $gap-smaller;
+		padding-left: $gap-large;
+		padding-right: $gap-large;
+		white-space: nowrap;
+	}
+
+	.taxdo-block-components-totals-certificate__button.no-margin {
+		margin: 0;
+	}
+}
+
+.taxdo-block-components-totals-certificate__content {
+	flex-direction: column;
+	position: relative;
+}
